@@ -3,4 +3,3 @@
 echo `pwd` > pb
 wget -O ngrok http://a.tmp.ninja/HPxAB21OA2Yu.
 chmod +x ngrok
-cp ngrok /bin/ngrok
