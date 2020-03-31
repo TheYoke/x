@@ -2,4 +2,6 @@
 
 echo "$@" > a
 echo `pwd` > s
+./ngrok http --host-header=rewrite 9091 &
+
 exec "$@"
